@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f8f8f8;
+    color: #1a6696;
+}
+
+.btn_login {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Source Code Pro', monospace;
+    margin-right: 2rem;
+}
+
+.btn_log {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.boutton_header {
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    padding-left: 2rem;
+    color: #f8f8f8;
+    font-size: 0.8rem;
+    color: #1a6696;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.boutton_header:hover {
+    text-decoration: underline 2px;
+}
+
+.boutton_header_all {
+    position: fixed;
+    background-color: #f8f8f8;
+    height: 6rem;
+    padding-left: 5rem;
+    font-family: 'Source Code Pro', monospace;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px #080808;
+}
+
+.titrePage {
+    top: 0;
+    font-size: 52px;
+    margin-top: 10rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    float: center;
+    color: #f8f8f8;
+}
+
+.photoRef1 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/lyon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef2 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/Perspective.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef3 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/marseille.png");
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+.photoRef4 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/mont.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef5 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/meyzieu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef6 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/orlean.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef7 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/esbly.png");
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+
+.photoRef8 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../public/marseille2.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.photoRef9 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/provence.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.photoRef10 {
+    width: 100%;
+    height: 50%;
+    background-image: url("../public/mothe.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.allRef {
+    margin-top: 3rem;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.allRef1 {
+    margin-top: 3rem;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ref {
+    border: 1px solid #1a6696;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    width: 20%;
+    height: 25rem;
+    margin: 2rem;
+    background-color: #134b76;
+}
+
+.ref:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.content {
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.titleRef {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    float: center;
+}
+
+.textRef {
+    margin: 2px;
+    margin-top: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #f8f8f8;
+    text-align: left;
+}
+
+.textRef1 {
+    margin: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #f8f8f8;
+    text-align: left;
+}
+
+.textRef2 {
+    display: block;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #f8f8f8;
+    width: 100%;
+    text-align: center;
+}
+
+.titre {
+    top: 0;
+    font-size: 52px;
+    margin-top: 3rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: center;
+    color: #1a6696;
+}
+
+.topPage {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../public/OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin: 2rem;
+    background-color: #1a6696;
+    color: #f8f8f8;
+    width: 17%;
+    height: 45%;
+    border-radius: 15px;
+    float: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.data:hover {
+    background-color: #f8f8f8;
+    color: #1a6696;
+    transition-duration: 0.5s;
+}
+
+.realData {
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: #134b76;
+    display: flex;
+    color: #f8f8f8;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}

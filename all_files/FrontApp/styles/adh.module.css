@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f8f8f8;
+    color: #1a6696;
+}
+
+.btn_login {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Source Code Pro', monospace;
+    margin-right: 2rem;
+}
+
+.map_image {
+    margin-top: 10%;
+    margin-left: 5%;
+    float: center;
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+.map_image path {
+    fill: #134b76;
+    stroke: white;
+    stroke-width: 1.5px;
+    transition: fill 0.5s;
+}
+
+.map_image path:hover {
+    fill: #266bd4;
+    stroke: #f8f8f8;
+    stroke-width: 1.5px;
+    transition: fill 0.5s;
+}
+
+.map_list {
+    float: right;
+    width: 50%;
+}
+
+.btn_log {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.boutton_header {
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    padding-left: 2rem;
+    color: #f8f8f8;
+    font-size: 0.8rem;
+    color: #1a6696;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.boutton_header:hover {
+    text-decoration: underline 2px;
+}
+
+.boutton_header_all {
+    position: fixed;
+    background-color: #f8f8f8;
+    height: 6rem;
+    padding-left: 5rem;
+    font-family: 'Source Code Pro', monospace;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px #080808;
+}
+
+.titrePage {
+    top: 0;
+    font-size: 52px;
+    margin-top: 10rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    float: center;
+    color: #134b76;
+}
+
+.footer {
+    background-color: #134b76;
+    display: flex;
+    color: #f8f8f8;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
